@@ -7,7 +7,7 @@ const passwordMatch = () => {
       alert("Password created successfully");
       return passwordMatch;
     } else {
-      alert("Passwords did not match, Try again!")
+      alert("Passwords did not match, Try again!");
     }
   }
 };
