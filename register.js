@@ -1,8 +1,7 @@
-
 const passwordMatch = () => {
   while(true) {
-    let pw1 = document.getElementById("pswd1");
-    let pw2 = document.getElementById("pswd2");
+    const pw1 = document.getElementById("pswd1");
+    const pw2 = document.getElementById("pswd2");
     if(pw1 === pw2) {
       alert("Password created successfully");
       return passwordMatch;
@@ -13,4 +12,4 @@ const passwordMatch = () => {
 };
 
 
-passwordMatch();
+let psw = passwordMatch();
